@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    display: flex;
+    height:100vh;
+}
+
+.left{
+    background-image: url(./assets/Background-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    div{
+        margin-top:30% ;
+        display: flex;
+        justify-content: center;
+        height: 150px;
+        background-color: rgba(255, 255, 255, 0.459);
+        padding: 10px;
+        h1{
+            font-size: 150px;
+            font-family: 'Amatic SC', cursive;
+        }
+    }
+
+}
+
+.right{
+    width: 60%;
+    background-color:antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    div{        
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;    
+        box-sizing: border-box;  
+        form{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;            
+            div{
+                width: 50%;
+            }
+        }
+    }
+    .hero{
+        height: 30%;
+        font-size: 1.7em;
+        padding: 50px;  
+        padding-top: 60px;
+        padding-right: 250px;
+    }
+    .form-container{
+        height: 70%;
+        background-color: rgba(0, 0, 0, 0.197);
+        padding: 50px;
+        p{
+            font-size: 1.7em;
+        }
+        div{
+            padding-top:20px;
+            input{
+                width: 300px;
+                border-radius: 5px;
+                font-size: 1em;
+                padding: 5px;
+                border: #E5E7EB 1px solid;
+            }
+            input:invalid{
+                border: red solid 1px;
+            }
+            input:focus{
+                border:blue solid 1px;
+            }
+        }
+        .account{
+            padding-top:40px ;
+            button{
+                padding: 0.5em 2em;
+                font-size: 1.2em;
+                border-radius: 5px;
+                border: #E5E7EB;
+            }
+            p{
+                font-size: 1.2em;
+                padding-top:20px;
+                a{
+                    color: #f0f0f0 ;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
